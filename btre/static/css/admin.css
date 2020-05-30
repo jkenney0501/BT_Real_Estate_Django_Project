@@ -1,0 +1,47 @@
+/* header background and text in admin area */
+#header{
+    background:#10284e;
+    color:#fff;
+    height:50px;
+}
+
+
+#branding h1{
+    color:#fff;
+}
+
+/* links */
+a:link,
+a:visited {
+    color:#10284e;
+}
+
+/* bc header */
+div.breadcrumbs {
+    background:#30caa0;
+    color:#10284e;
+}
+
+/* BC link */
+div.breadcrumbs {
+    color: #333;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #30caa0;
+}
+
+/* buttons-admin */
+.button, input[type=submit], 
+input[type=button], 
+.submit-row input, a.button {
+    background: #10284e;
+    color:#fff;
+}
+
+/* save button */
+.button.default, 
+input[type=submit].default, 
+.submit-row input.default{
+    background:#10284e ;
+}
