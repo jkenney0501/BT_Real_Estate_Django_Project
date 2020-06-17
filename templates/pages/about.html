@@ -2,6 +2,8 @@
 
 {% load static %}
 
+{% block title %} | About Us {% endblock %}
+
 {% block content %}
 <section id="showcase-inner" class="py-5 text-white">
     <div class="container">
@@ -36,9 +38,10 @@
           <h2>We Search For The Perfect Home</h2>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
           <img src="{% static 'img/about.jpg' %}" alt="">
-          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis esse officia repudiandae ad saepe ex, amet
-            neque quod accusamus rem quia magnam magni dolorum facilis ullam minima perferendis? Exercitationem at quaerat
-            commodi id libero eveniet harum perferendis laborum molestias quia.</p>
+          <p class="mt-4">This site features a full content management system that allows
+            a user to upload images, property specs, seller of the month, employees and are allows
+            stored in a posgres database.
+          </p>
         </div>
         <div class="col-md-4">
           {% if mvp_realtors %}
@@ -64,7 +67,7 @@
     <h2 class="display-4">We Work For You</h2>
     <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit aperiam, unde aliquid at similique!</h4>
     <hr>
-    <a href="listings.html" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
+    <a href="{% url 'listings' %}" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
   </section>
 
   <!-- Team -->
