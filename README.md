@@ -4,7 +4,7 @@ Check out the demo link and sign up to test out the features!
 
 Python 3.7.6
 Django 3.0.1
-Bootstrap 4.1 with Sass pre-complie
+Bootstrap 4.1 with Sass pre-compile
 
 Features- content management sytem, user can upload photos and descriptions of new properites and realtors on site. 
 Customer can register and create an account.
