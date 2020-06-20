@@ -27,14 +27,14 @@ def contact(request):
 
     contact.save()
 
-    #send mail
-    send_mail(
-    'Property Listing',
-    'There has been an inquiry.',
-    'emc2webdev@gmail.com',
-    ['mypolarisdesigns@gmail.com'],
-    fail_silently=False,
-    )
+    #send mail-disabled for demo, tested and works fine this is not HTTPS
+    # send_mail(
+    # 'Property Listing',
+    # 'There has been an inquiry.',
+    # 'emc2webdev@gmail.com',
+    # ['mypolarisdesigns@gmail.com'],
+    # fail_silently=False,
+    # )
 
     messages.success(request, 'Your request has been submitted, a realtor will get back to you soon')
     return redirect('/listings/'+listing_id)
