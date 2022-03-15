@@ -12,4 +12,4 @@ Customer has account page with a listings page to show properties theyve submitt
 Inquiry form gets stored directlt in database and an email is sent to the realtor for customer contact.
 Contact form is also pre-filled with customer info when the form is submitted when logged in.
 
-Demo Link: http://159.89.90.219/
+Demo Link: Site is no longer hosted
