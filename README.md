@@ -1,4 +1,7 @@
 # BT-Real-Estate
+
+![My Image](btre.PNG)
+
 A python/django real estate website with fully dynamic web pages and a content management system on the backend. 
 Check out the demo link and sign up to test out the features!
 
